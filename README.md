@@ -1,23 +1,23 @@
-👋 Hi, I'm Sobee
+👋 Hi, I'm Sobee, Welcome to my repositories
 
-I'm a Full Stack Web Developer, passionate about building in public, growing through real-world projects, and sharing dev insights along the way.
+I'm a Full Stack Software Developer, passionate about building in public, growing through real-world projects, and sharing dev insights along the way.
 
 
 
-## What I’m Working On
+## What I do 
 
-- 🎯 A responsive website for an online Tech Academy, built to showcase my frontend skills.
+- 🎯 I build mobile-responsive web apps.
 - 
-- 🔨 Backend functionality coming soon
-- 🧠 Exploring deeper into python, tailwind css and JavaScript 
+- 🔨 Functional Backend Logics
+- 🧠 Exploring deeper and improving by the day
 
 
 ## 🛠 Tech Stack
 
-- **Languages**: JavaScript, Tailwind css
-- **Frontend**: HTML, CSS, Tailwind 
-- **Backend**: Python, Node.js (learning in progress)
-- **Tools**: Git, GitHub, VS Code.
+- **Languages**: JavaScript, Tailwind css, Python.
+- **Frontend**: HTML, CSS, Tailwind,React 
+- **Backend**: Python(flask), Python(Django),Node.js (learning in progress)
+- **Tools**: Git, GitHub, VS Code, Pycharm
 - 
 
 ## 🧩 Current Goal
