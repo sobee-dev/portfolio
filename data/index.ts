@@ -8,35 +8,27 @@ export const navItems = [
 export const myTechStack = [
   "HTML",
   "CSS",
-  "SCSS",
   "Tailwind",
-  "ShadCn/UI",
-  "Figma",
-  "Framer",
   "JavaScript (ES6+)",
   "React",
-  "Next.js",
-  "TypeScript",
-  "Jest",
   "Git",
-  "TanStack Query",
-  "CI/CD",
-  "Jira",
-  "Agile",
+  "Python(Flask)",
+  "Python(Django)",
+  "PostgreSql",
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "FitLorem: Your Lorem Buddy in Code",
+    title: "The Tech POWA: An online Tech Academy",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatumofficiis, eum modi inventore natus velit voluptates laudantium nam!",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     titleClassName: "justify-end",
     img: "https://i.pinimg.com/originals/be/f4/1a/bef41a7d5a877841bbf7d8f9f0d42f14.gif",
-    github: "https://github.com/codewithty",
-    link: "https://www.instagram.com/codewithty",
-    techs: ["JavaScript", "React", "NodeJS", "Express", "MongoDB", "Tailwind"],
+    github: "https://github.com/sobee-dev",
+    link: "https://www.thetechpowa.com",
+    techs: ["HTML, JavaScript", "Python(Flask)", "Tailwind", "Postgre Sql"],
   },
   {
     id: 2,
@@ -102,19 +94,17 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    company: "Company",
-    title: "UX/UI Sorcerer",
-    desc: "Transformed the user dashboard with a sleek design that boosted engagement by 35%. Optimized the onboarding flow to make new users feel like wizards on their first try.",
+    company: "BILLBUZZ NIG LTD",
+    title: "Full-Stack developer",
+    desc: "Designed, build from scratch, initially with flask, then upgraded with Django and migrated to postgresSql. ",
     className: "md:col-span-2",
-    location: "Los Angeles",
-    period: "Start Date - End Date",
+    location: "Lagos Nigeria",
+    period: "8 weeks",
     skills: [
-      "Figma",
-      "Sketch",
       "Prototyping",
       "User Testing",
-      "Illustrator",
-      "Adobe XD",
+      "Project Achitecture design",
+      "Front end and graphics design",
     ],
   },
   {
@@ -157,7 +147,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "assets/git.svg",
-    link: "https://github.com/codewithty",
+    link: "https://github.com/sobee-dev",
   },
   {
     id: 2,
@@ -167,25 +157,23 @@ export const socialMedia = [
   {
     id: 3,
     img: "assets/web.svg",
-    link: "https://codewithty.dev",
+    link: "https://",
   },
   {
     id: 3,
     img: "assets/insta.svg",
-    link: "https://www.instagram.com/codewithty",
+    link: "https://www.instagram.com/realsobee",
   },
   {
     id: 3,
     img: "assets/link.svg",
-    link: "https://github.com/codewithty",
+    link: "https://x.com/sobee_dev",
   },
 ];
 
 export const skills = [
-  "TypeScript",
   "React",
-  "Redux",
-  "NodeJS",
-  "NextJS",
+  "Python",
+  "JS",
   "Tailwind",
 ];
