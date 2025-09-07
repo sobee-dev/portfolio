@@ -22,25 +22,25 @@ export const projects = [
     id: 1,
     title: "The Tech POWA: An online Tech Academy",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatumofficiis, eum modi inventore natus velit voluptates laudantium nam!",
+      "The Tech Powa is a active digital learning platform and community for young people to learn digital tech skills and network with like minds, especially tech related fields. Made with plain html, tailwind and vanilla javasript for the front end, and Python(flask) at the backend due to its light weight nature. It features an admin page for customization and updating of course, student management. Personalized css styled email for student follow up.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     titleClassName: "justify-end",
-    img: "https://i.pinimg.com/originals/be/f4/1a/bef41a7d5a877841bbf7d8f9f0d42f14.gif",
+    img: "/assets/powa-pic.png",
     github: "https://github.com/sobee-dev",
     link: "https://www.thetechpowa.com",
-    techs: ["HTML, JavaScript", "Python(Flask)", "Tailwind", "Postgre Sql"],
+    techs: ["HTML", "JavaScript", "Python(Flask)", "Tailwind", "Postgre Sql"],
   },
   {
     id: 2,
-    title: "TimeLorem: Never Miss a Lorem Ipsum",
+    title: "Billbuzz: A fast VTU and bills payment webapp",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis, eum modi inventore natus velit voluptates laudantium nam.",
+      "This app is made to ease airtime and internet top up, pay utility bills and register businesses. React.js was use in the front end, and Python(Django) was used in the backend for its fast third-party API integration. This features a wallet system, smooth API integrations",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-start",
-    img: "https://i.pinimg.com/originals/84/f6/d1/84f6d14f1f88d34d3956150d19060d3a.gif",
-    github: "https://github.com/codewithty",
-    link: "https://codewithty/academy",
-    techs: ["JavaScript", "React", "NodeJS", "AWS", "GitHub", "Jira"],
+    img: "/assets/billbuzz-pic.png",
+    github: "https://github.com/sobee-dev",
+    link: "https://billbuzz.ng",
+    techs: ["JavaScript","Git", "React","Python(Django)", "GitHub"],
   },
   {
     id: 3,
@@ -152,12 +152,12 @@ export const socialMedia = [
   {
     id: 2,
     img: "assets/linkedin.svg",
-    link: "#",
+    link: "https://www.linkedin.com/in/obinna-e-samuel-0b9788237/",
   },
   {
     id: 3,
     img: "assets/web.svg",
-    link: "https://",
+    link: "https://portfolio-sobee-devs-projects.vercel.app/",
   },
   {
     id: 3,
@@ -172,6 +172,8 @@ export const socialMedia = [
 ];
 
 export const skills = [
+  "HTML",
+  "CSS",
   "React",
   "Python",
   "JS",

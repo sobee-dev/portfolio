@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <link
           rel="icon"
-          href="https://codewithty.dev/images/logo.png"
+          href="https://portfolio-sobee-devs-projects.vercel.app/images/logo.png"
           sizes="any"
         />
       </head>
@@ -34,16 +34,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://codewithty.dev"),
+  metadataBase: new URL("https://portfolio-sobee-devs-projects.vercel.app"),
   title: {
-    default: "CodeWithTy ✷ Tech Development Portfolio",
-    template: "%s - CodeWithTy",
+    default: "Sobee-dev ✷ Fullstack Software Developer",
+    template: "%s - sobee-dev",
   },
   description:
-    "Professional portfolio template by CodeWithTy - showcasing expertise in web development, cybersecurity, blockchain, mobile apps, and data analysis. Build your tech career with our modern, responsive portfolio template.",
+    "Professional fullstack software developer",
   keywords: [
-    "CodeWithTy",
-    "portfolio template",
+    "obinna samuel edeh",
+    "obinna Edeh",
     "web development",
     "cybersecurity",
     "blockchain development",
@@ -60,44 +60,44 @@ export const metadata: Metadata = {
     icon: "./favicon.ico",
     apple: "./apple-touch-icon.png",
   },
-  applicationName: "CodeWithTy Portfolio Template",
+  applicationName: "Obinna Samuel E. portfolio",
   authors: [
     {
-      name: "CodeWithTy Team",
-      url: "https://codewithty.dev",
+      name: "obinna Samuel E",
+      url: "https://",
     },
   ],
   generator: "Next.js",
   referrer: "origin",
-  creator: "CodeWithTy",
-  publisher: "CodeWithTy",
+  creator: "obinna Samuel",
+  publisher: "ObinnaSamuel",
   category: "technology",
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://codewithty.dev",
-    siteName: "CodeWithTy",
-    title: "CodeWithTy - Tech Development & Solution Experts",
+    url: "https://",
+    siteName: "Obinna Samuel portfolio",
+    title: "Obinna Samuel - Tech Development & Solution Expert",
     description:
-      "Professional portfolio template for developers specializing in web development, cybersecurity, blockchain, and mobile applications.",
+      "A fullstack software developer, specializing in web development, cybersecurity, blockchain, and mobile applications.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodeWithTy Portfolio Template",
+        alt: "Obinna Samuel E portfolio",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    site: "@codewithty",
-    creator: "@codewithty",
-    title: "CodeWithTy - Tech Development Portfolio Template",
+    site: "@sobee-dev",
+    creator: "@sobee-dev",
+    title: "Obinna Samuel E - Softwre developer",
     description:
-      "Modern portfolio template for tech professionals and developers",
+      "A professional fullstack software developer",
     images: ["/twitter-image.png"],
   },
 
@@ -124,7 +124,7 @@ export const metadata: Metadata = {
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "apple-mobile-web-app-title": "CodeWithTy",
+    "apple-mobile-web-app-title": "obinna Samuel",
     "mobile-web-app-capable": "yes",
     "msapplication-TileColor": "#0f172a",
     "msapplication-config": "/browserconfig.xml",

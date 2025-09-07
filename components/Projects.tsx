@@ -16,9 +16,7 @@ const Projects = () => {
       </Reveal>
       <BentoGrid className="w-full py-20">
         {projects.map((item, i) => (
-          <BentoGridItem
-            key={item.id}
-            {...item}
+          <BentoGridItem key={item.id}{...item} techs={item.techs}
           />
         ))}
       </BentoGrid>

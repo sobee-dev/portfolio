@@ -23,7 +23,7 @@ const About = () => (
           <img src="" alt="" />
         </div>
         <p>
-          Hey! I am curious learner, with a dead-lock approach to problems, a critical thinker and that loves to collaborate,
+          I am a curious learner, with a dead-lock approach to problems, a critical thinker that loves to collaborate, a writer, strategist 
           and a movie enthusiast.
         </p>
         <p>

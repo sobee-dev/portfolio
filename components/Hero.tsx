@@ -17,9 +17,9 @@ const Hero = () => {
       <div className="text-center my-20 mx-auto max-w-[900px] justify-center flex flex-col ">
         <Reveal>
           <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-extrabold ">
-            Hey, I am {""}
+            Hi, I am {""}
             <span className="bg-gradient-to-r from-blue-700 to-blue-200 bg-clip-text text-transparent">
-             Obinna Samuel
+             Obinna Samuel E.
             </span>
           </h1>
         </Reveal>
