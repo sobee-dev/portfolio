@@ -19,8 +19,8 @@ const About = () => (
         duration={Math.floor(Math.random() * 10000) + 10000}
         className="flex-col text-left p-3 md:p-5 lg:p-10 gap-5 min-h-full"
       >
-        <div className="p-3 md:p-5 lg:p-10 w-full rounded-3xl h-[250px] bg-blue-500 mx-auto">
-          <img src="" alt="" />
+        <div className="p-3 md:p-5 lg:p-10 w-full rounded-3xl mx-auto">
+          <img src="/assets/my-photo.jpg" className="w-full h-auto" alt="" />
         </div>
         <p>
           I am a curious learner, with a dead-lock approach to problems, a critical thinker that loves to collaborate, a writer, strategist 

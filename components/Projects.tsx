@@ -6,7 +6,7 @@ import Reveal from "./ui/Reveal";
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-10">
       <Reveal>
          <h3>
           Recent{" "}
@@ -14,7 +14,7 @@ const Projects = () => {
             projects.</span>
         </h3>
       </Reveal>
-      <BentoGrid className="w-full py-20">
+      <BentoGrid className="w-full py-10">
         {projects.map((item, i) => (
           <BentoGridItem key={item.id}{...item} techs={item.techs}
           />

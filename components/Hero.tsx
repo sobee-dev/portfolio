@@ -25,10 +25,10 @@ const Hero = () => {
         </Reveal>
         
         <h2 className="title my-6 text-xl md:text-3xl lg:text-5xl">
-          I&apos;m a Fullstack Software Developer
+           A Fullstack Software Developer
         </h2>
         <p className="max-w-[700px] mx-auto">
-          I love turning ideas into real-world applications. Whether it’s an intuitive UI, a robust API, or a fully deployed product in the cloud, every project I work on is driven by clean code, scalability, and user experience. I don’t just build software,
+          I love turning ideas into real-world applications. Whether it&apos;s an intuitive UI, a robust API, or a fully deployed product in the cloud, every project I work on is driven by clean code, scalability, and user experience. I don’t just build software,
            I create solutions that help businesses and individuals grow, adapt, and succeed in a digital world.
         </p>
         <a className="mt-10 mx-auto" href="#contact">

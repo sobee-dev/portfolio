@@ -9,7 +9,7 @@ interface BentoGridProps {
 export const BentoGrid: React.FC<BentoGridProps> = ({ className, children }) => (
   <div
     className={cn(
-      "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+      "grid md:grid-cols-2  gap-4 mx-auto justify-center",
       className
     )}
   >
@@ -49,7 +49,7 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
 }) => (
   <div
     className={cn(
-      "row-span-1 relative overflow-hidden rounded-3xl border border-white/10 group/bento hover:shadow-xl transition duration-200 flex flex-col space-y-4",
+      " relative overflow-hidden rounded-3xl border border-white/10 group/bento hover:shadow-xl transition duration-200 flex flex-col space-y-4",
       className
     )}
   >
@@ -64,15 +64,11 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
         </div>
     )}
 
-    <div className={cn(id === 6 && "flex justify-center", "h-full")}>
-      
-
-      <div className={cn(id === 5 && "w-full opacity-80", "absolute right-0 -bottom-5")} />
-
+   
       <div
         className={cn(
           titleClassName,
-          "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 py-5 lg:py-10"
+          "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full flex flex-col px-5 py-5 lg:py-10"
         )}
       >
         <div className="flex items-end gap-5">
@@ -154,6 +150,6 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
           </div>
         </div>
       </div>
-    </div>
+    
   </div>
 );
