@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/ui/NavBar";
+import { Analytics } from "@vercel/analytics/next"
 
 const Home = () => {
   return (

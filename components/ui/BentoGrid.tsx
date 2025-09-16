@@ -27,6 +27,9 @@ interface BentoGridItemProps {
   img?: string;
   titleClassName?: string;
   techs?: string[];
+  features?: string[];
+  challenges?: string[];
+  solutions?: string[];
 }
 
 
@@ -39,7 +42,10 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
   github,
   img,
   titleClassName,
-  techs
+  techs,
+  features,
+  challenges,
+  solutions
 }) => (
   <div
     className={cn(
@@ -47,16 +53,19 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
       className
     )}
   >
-    <div className={cn(id === 6 && "flex justify-center", "h-full")}>
-      {img && (
-        <div className="w-full h-full absolute">
+    
+    {img && (
+        <div className="w-full">
           <img
             src={img}
             alt={`Image for ${title}`}
-            className="object-cover object-center opacity-20 w-full h-full"
+            className="object-cover object-center  w-full h-full rounded-t-3xl"
           />
         </div>
-      )}
+    )}
+
+    <div className={cn(id === 6 && "flex justify-center", "h-full")}>
+      
 
       <div className={cn(id === 5 && "w-full opacity-80", "absolute right-0 -bottom-5")} />
 
@@ -104,6 +113,33 @@ export const BentoGridItem: React.FC<BentoGridItemProps> = ({
             <p className="font-extralight md:max-w-[80%] md:text-xs lg:text-base text-sm z-10 opacity-70">
               {description}
             </p>
+
+            <div className="py-2">
+              <p>Key Features:</p>
+              <ul className="list-disc list-inside">
+                {features?.map((feature) => (
+                  <li key={feature}>{feature}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="py-2">
+              <p>Challenges Encountered:</p>
+              <ul className="list-disc list-inside">
+                {challenges?.map((challenge) => (
+                  <li key={challenge}>{challenge}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="py-2">
+              <p>Solutions:</p>
+              <ul className="list-disc list-inside">
+                {solutions?.map((solution) => (
+                  <li key={solution}>{solution}</li>
+                ))}
+              </ul>
+            </div>
 
             <div className="flex flex-wrap gap-2 py-1">
               {techs?.map((tech) => (

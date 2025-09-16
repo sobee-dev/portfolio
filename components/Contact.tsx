@@ -17,7 +17,7 @@ const Contact = () => {
           </h2>
         </Reveal>
 
-        <a className="mt-10" href="mailto:hello@codewithty.dev">
+        <a className="mt-10" href="mailto:obinnasamueledeh@gmail.com">
           <Button
             title="Let's connect"
             icon={<img src="assets/send.svg" />}

@@ -22,13 +22,16 @@ export const projects = [
     id: 1,
     title: "The Tech POWA: An online Tech Academy",
     description:
-      "The Tech Powa is a active digital learning platform and community for young people to learn digital tech skills and network with like minds, especially tech related fields. Made with plain html, tailwind and vanilla javasript for the front end, and Python(flask) at the backend due to its light weight nature. It features an admin page for customization and updating of course, student management. Personalized css styled email for student follow up.",
+      "The Tech Powa is an active digital learning platform and community for young people to learn digital tech skills and network with like minds, especially tech related fields. Made with plain html, tailwind and vanilla javasript for the front end, and Python(flask) at the backend due to its light weight nature. It features an admin page for customization and updating of course, student management. Personalized css styled email for student follow up.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     titleClassName: "justify-end",
     img: "/assets/powa-pic.png",
-    github: "https://github.com/sobee-dev",
+    github: "https://github.com/sobee-dev/powa",
     link: "https://www.thetechpowa.com",
     techs: ["HTML", "JavaScript", "Python(Flask)", "Tailwind", "Postgre Sql"],
+    features: ["Student Database Management ", "Automated Personalized html email upon registration.","Admin dashboard"],
+    challenges:["Removed login authentication halfway through and revamped Database","No UI reference provided"] ,
+    solutions:["Used db-migrate to add new fields to the existing db","Maintained same styles for repeatable elemnets"]
   },
   {
     id: 2,
@@ -38,9 +41,12 @@ export const projects = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     titleClassName: "justify-start",
     img: "/assets/billbuzz-pic.png",
-    github: "https://github.com/sobee-dev",
+    github: "https://github.com/sobee-dev/billbuzz",
     link: "https://billbuzz.ng",
     techs: ["JavaScript","Git", "React","Python(Django)", "GitHub"],
+    features: ["User authenticaton system", "Third party API integrations","Wallet system" ],
+    challenges:["Making The backend with Django, not flask because of scalability"] ,
+    solutions:[]
   },
   {
     id: 3,
@@ -53,6 +59,9 @@ export const projects = [
     github: "https://github.com/codewithty",
     link: "https://codewithty.dev",
     techs: ["TypeScript", "React", "NextJS", "CSS", "AWS", "GitHub"],
+    features: [],
+    challenges: [],
+    solutions:[]
   },
   {
     id: 4,
@@ -65,6 +74,9 @@ export const projects = [
     github: "https://github.com/codewithty",
     link: "https://codewithty.dev",
     techs: ["JavaScript", "NodeJS", "Express", "React", "Heroku", "GitHub"],
+    features: [],
+    challenges:[] ,
+    solutions:[]
   },
   {
     id: 5,
@@ -77,6 +89,9 @@ export const projects = [
     github: "https://github.com/codewithty",
     link: "https://codewithty.dev/about",
     techs: ["JavaScript", "CSS", "React", "Tailwind", "GitHub", "AWS"],
+    features: [],
+    challenges:[] ,
+    solutions:[]
   },
   {
     id: 6,
@@ -109,9 +124,9 @@ export const workExperience = [
   },
   {
     id: 2,
-    company: "Company",
-    title: "Product Design Genius",
-    desc: "Revamped the interface with intuitive controls, increasing user retention by 28%. Pioneered AR features for interactive learning experiences—because education should be fun and engaging.",
+    company: "The Tech Powa LTD",
+    title: "Chief technology officer and developer",
+    desc: "Designed and developed the digital academy platform with smooth ui to engage potential students.",
     className: "md:col-span-2",
     location: "Lagos, Nigeria",
     period: "Start Date - End Date",
