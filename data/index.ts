@@ -45,8 +45,8 @@ export const projects = [
     link: "https://billbuzz.ng",
     techs: ["JavaScript","Git", "React","Python(Django)", "GitHub"],
     features: ["User authenticaton system", "Third party API integrations","Wallet system" ],
-    challenges:["Making The backend with Django, not flask because of scalability"] ,
-    solutions:[]
+    challenges:["Making The backend with Django, from flask (because of scalability)","Handling different apis with different parameters"] ,
+    solutions:["painstakingly structure a robust api architecture for clean running and easy debug by others."]
   },
   {
     id: 3,
