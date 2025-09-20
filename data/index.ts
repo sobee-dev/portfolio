@@ -48,21 +48,7 @@ export const projects = [
     challenges:["Making The backend with Django, from flask (because of scalability)","Handling different apis with different parameters"] ,
     solutions:["painstakingly structure a robust api architecture for clean running and easy debug by others."]
   },
-  {
-    id: 3,
-    title: "Lorem & CWT: A Creative Lorem Approach",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis, eum modi inventore natus velit voluptates laudantium nam.",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    titleClassName: "justify-center",
-    img: "https://i.pinimg.com/originals/54/b5/24/54b52468335fd6eb935e330eb3197b25.gif",
-    github: "https://github.com/codewithty",
-    link: "https://codewithty.dev",
-    techs: ["TypeScript", "React", "NextJS", "CSS", "AWS", "GitHub"],
-    features: [],
-    challenges: [],
-    solutions:[]
-  }
+
 ];
 
 export const workExperience = [
@@ -73,7 +59,7 @@ export const workExperience = [
     desc: "Designed, build from scratch, initially with flask, then upgraded with Django and migrated to postgresSql. ",
     className: "md:col-span-2",
     location: "Lagos Nigeria",
-    period: "8 weeks",
+    period: "2025-date",
     skills: [
       "Prototyping",
       "User Testing",
@@ -89,7 +75,7 @@ export const workExperience = [
     desc: "Designed and developed the digital academy platform with smooth ui to engage potential students.",
     className: "md:col-span-2",
     location: "Lagos, Nigeria",
-    period: "Start Date - End Date",
+    period: "2024",
     skills: [
       "Figma",
       "User Research",
@@ -98,24 +84,8 @@ export const workExperience = [
       "Usability Testing",
       "CSS",
     ],
-  },
-  {
-    id: 3,
-    company: "Company",
-    title: "Design Systems Guru",
-    desc: "Crafted design systems that were so organized they could be put in a museum. Pushed for consistent, user-friendly components that made developers’ lives easier.",
-    className: "md:col-span-2",
-    location: "Remote",
-    period: "Start Date - End Date",
-    skills: [
-      "Figma",
-      "React",
-      "Design Tokens",
-      "Accessibility",
-      "Storybook",
-      "Collaboration",
-    ],
-  },
+  }
+  
 ];
 
 export const socialMedia = [
