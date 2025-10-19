@@ -42,7 +42,7 @@ export const projects = [
     titleClassName: "justify-start",
     img: "/assets/billbuzz-pic.png",
     github: "https://github.com/sobee-dev/billbuzz",
-    link: "https://billbuzz.ng",
+    link: "https://billbuzz.vercel.app/",
     techs: ["JavaScript","Git", "React","Python(Django)", "GitHub"],
     features: ["User authenticaton system", "Third party API integrations","Wallet system" ],
     challenges:["Making The backend with Django, from flask (because of scalability)","Handling different apis with different parameters"] ,
