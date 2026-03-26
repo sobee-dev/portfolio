@@ -1,28 +1,20 @@
 import React from "react";
-import { Sparkle } from "./ui/Sparkle";
-import { myTechStack } from "@/data";
-import Reveal from "./ui/Reveal";
+
+
 
 const About = () => (
-  <section id="about" className="py-20 w-full space-y-10">
-    <Reveal>
-      <h3 className="mb-10">
-        About{" "}
-        <span className="bg-gradient-to-r from-blue-200 to-blue-700 bg-clip-text text-transparent">
-          me.
+  <section id="about" className="overflow-hidden w-full md:h-[100vh] space-y-10">
+    <h2 className="mb-10 text-center">
+        About <span className="text-blue-800 dark:text-blue-400">
+          Me.
         </span>
-      </h3>
-    </Reveal>  
+    </h2>
+     
     
-    <div className="sm:flex grid-cols-[2fr_1fr] gap-6 space-y-5 sm:space-y-0">
-      <Sparkle
-        duration={Math.floor(Math.random() * 10000) + 10000}
-        className="flex-col text-left p-3 md:p-5 lg:p-10 gap-5 min-h-full"
-      >
-        <div className="p-3 md:p-5 lg:p-10 w-full rounded-3xl mx-auto">
-          <img src="/assets/my-photo.jpg" className="w-full h-auto" alt="" />
-        </div>
-        <p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <div className="max-md:order-2">
+          <p>
           I am a curious learner, with a dead-lock approach to problems, a critical thinker that loves to collaborate, a writer, strategist 
           and a movie enthusiast.
         </p>
@@ -37,26 +29,34 @@ const About = () => (
           project, tech trends, or even the latest action flick. Feel free to
           reach out. Let’s connect!
         </p>
-      </Sparkle>
+      </div>
+        
 
-      <div className="relative overflow-hidden rounded-3xl border border-white/[0.1] transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4 p-10">
-        <p className="text-lg lg:text-3xl font-extrabold">
-          <span className="bg-gradient-to-r from-blue-200 to-blue-700 bg-clip-text text-transparent">
-            My Tech Stack!
-          </span>
-        </p>
+      <div className="max-md:order-1 p-3 md:p-5 lg:p-10 w-full mx-auto flex justify-center items-center">
+        {/* The "group" class here is the trigger for hover effects */}
+        <div className="group relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 transition-transform duration-500">
 
-        <div className="flex flex-wrap gap-3 py-4">
-          {myTechStack.map((skill) => (
-            <div
-              key={skill}
-              className="bg-white/10 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-white/20 transition duration-200 ease-in-out"
-            >
-              {skill}
-            </div>
-          ))}
+          {/* Outermost Ring */}
+          <div className="absolute inset-0 bg-blue-400/20 dark:bg-blue-400/30 rounded-full scale-150 z-10 animate-pulse group-hover:scale-[1.6] transition-transform duration-700 dark:duration-1000" />
+
+          {/* Middle Ring */}
+          <div className="absolute inset-0 bg-blue-600/40 dark:bg-blue-500/50 rounded-full scale-125 z-20 group-hover:scale-[1.35] transition-transform duration-600" />
+
+          {/* Main Blue Background */}
+          <div className="absolute inset-0 bg-blue-600/70 dark:bg-blue-400/50 rounded-full scale-110 z-30 shadow-lg group-hover:scale-[1.15] transition-transform duration-300" />
+
+          {/* Image — highest z-index so it sits on top */}
+          <div className="relative w-full h-full rounded-full overflow-hidden border border-white  shadow-2xl bg-white z-40 transition-transform duration-300 group-hover:scale-105 group-hover:rotate-2">
+            <img
+              src="/assets/my-photo.jpg"
+              className="w-full h-full object-cover"
+              alt="Profile"
+            />
+          </div>
+
         </div>
       </div>
+      
     </div>
   </section>
 );

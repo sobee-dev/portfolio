@@ -2,90 +2,8 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
-  { name: "Contact", link: "#contact" },
-];
-
-export const myTechStack = [
-  "HTML",
-  "CSS",
-  "Tailwind",
-  "JavaScript (ES6+)",
-  "React",
-  "Git",
-  "Python(Flask)",
-  "Python(Django)",
-  "PostgreSql",
-];
-
-export const projects = [
-  {
-    id: 1,
-    title: "The Tech POWA: An online Tech Academy",
-    description:
-      "The Tech Powa is an active digital learning platform and community for young people to learn digital tech skills and network with like minds, especially tech related fields. Made with plain html, tailwind and vanilla javasript for the front end, and Python(flask) at the backend due to its light weight nature. It features an admin page for customization and updating of course, student management. Personalized css styled email for student follow up.",
-    className: "",
-    titleClassName: "justify-end",
-    img: "/assets/powa-pic.png",
-    github: "https://github.com/sobee-dev/powa",
-    link: "https://www.thetechpowa.com",
-    techs: ["HTML", "JavaScript", "Python(Flask)", "Tailwind", "Postgre Sql"],
-    features: ["Student Database Management ", "Automated Personalized html email upon registration.","Admin dashboard"],
-    challenges:["Removed login authentication halfway through and revamped Database","No UI reference provided"] ,
-    solutions:["Used db-migrate to add new fields to the existing db","Maintained same styles for repeatable elemnets"]
-  },
-  {
-    id: 2,
-    title: "Billbuzz: A fast VTU and bills payment webapp",
-    description:
-      "This app is made to ease airtime and internet top up, pay utility bills and register businesses. React.js was use in the front end, and Python(Django) was used in the backend for its fast third-party API integration. This features a wallet system, smooth API integrations",
-    className: "",
-    titleClassName: "justify-start",
-    img: "/assets/billbuzz-pic.png",
-    github: "https://github.com/sobee-dev/billbuzz",
-    link: "https://billbuzz.vercel.app/",
-    techs: ["JavaScript","Git", "React","Python(Django)", "GitHub"],
-    features: ["User authenticaton system", "Third party API integrations","Wallet system" ],
-    challenges:["Making The backend with Django, from flask (because of scalability)","Handling different apis with different parameters"] ,
-    solutions:["painstakingly structure a robust api architecture for clean running and easy debug by others."]
-  },
-
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    company: "BILLBUZZ NIG LTD",
-    title: "Full-Stack developer",
-    desc: "Designed, build from scratch, initially with flask, then upgraded with Django and migrated to postgresSql. ",
-    className: "md:col-span-2",
-    location: "Lagos Nigeria",
-    period: "2025-date",
-    skills: [
-      "Prototyping",
-      "User Testing",
-      "Project Achitecture design",
-      "Front end and graphics design",
-      "Backend architecture and third-party AI integration"
-    ],
-  },
-  {
-    id: 2,
-    company: "The Tech Powa LTD",
-    title: "Chief technology officer and developer",
-    desc: "Designed and developed the digital academy platform with smooth ui to engage potential students.",
-    className: "md:col-span-2",
-    location: "Lagos, Nigeria",
-    period: "2024",
-    skills: [
-      "Figma",
-      "User Research",
-      "Wireframing",
-      "Prototyping",
-      "Usability Testing",
-      "CSS",
-    ],
-  }
-  
+  { name: "Testimonials", link: "/testimonials" },
+  { name: "Blog", link: "/blog" },
 ];
 
 export const socialMedia = [
@@ -116,11 +34,5 @@ export const socialMedia = [
   },
 ];
 
-export const skills = [
-  "HTML",
-  "CSS",
-  "React",
-  "Python",
-  "JS",
-  "Tailwind",
-];
+
+   

@@ -5,26 +5,28 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import NavBar from "@/components/ui/NavBar";
-import { Analytics } from "@vercel/analytics/next"
+import CTA from "@/components/CTA";
+
+
+
+import MyTechStack from "@/components/MyTechStack";
+import Testimonials from "@/components/Testimonials";
+
 
 const Home = () => {
   return (
-    <main className="h-screen bg-[#080025] flex">
-      <NavBar />
-      <div className="w-full overflow-y-auto mx-auto overflow-hidden">
-        <div className="px-5 md:px-10 lg:px-40">
-          <FloatingBar />
+    <main className=" dark:bg-[#070018]">
+          {/* <FloatingBar /> */}
           <Hero />
           <About />
+          <MyTechStack />
           <Projects />
           <Experience />
-          <Contact />
-        </div>
-        <Footer />
-      </div>
+          <Testimonials />
+          <CTA />
+          
+         
+      
     </main>
 
   );

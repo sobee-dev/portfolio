@@ -10,13 +10,15 @@
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.5.0",
+    "@vercel/analytics": "^1.6.1",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.25",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.1.4",
+    "next-themes": "^0.4.6",
     "react": "^18",
     "react-dom": "^18",
+    "resend": "^6.9.4",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "vercel": "^34.0.0"

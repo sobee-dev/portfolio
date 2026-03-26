@@ -1,6 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { Analytics } from "@vercel/analytics/next"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,7 +25,13 @@ export default function RootLayout({
           sizes="any"
         />
       </head>
-      <body className={`${poppins.className}`}>{children}</body>
+      <body className={`${poppins.className}`}>
+        <ThemeProvider>
+          <NavBar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
@@ -29,14 +39,14 @@ export default function RootLayout({
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#0f172a",
+  themeColor: "",
   colorScheme: "dark",
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio-sobee-devs-projects.vercel.app"),
   title: {
-    default: "Sobee-dev ✷ Fullstack Software Developer",
+    default: "Obinna Samuel ✷ Fullstack Software Developer",
     template: "%s - sobee-dev",
   },
   description:

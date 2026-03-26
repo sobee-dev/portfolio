@@ -5,29 +5,23 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 350 15% 10%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 350 15% 10%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 350 15% 10%;
-
-    --primary: 350 65% 40%;
-    --primary-foreground: 0 0% 98%;
-
-    --secondary: 350 60% 95%;
-    --secondary-foreground: 350 65% 40%;
+    --foreground: 222 47% 10%;
   }
-}
 
-@layer base {
+  .dark {
+    --background: 222 47% 7%;
+    --foreground: 0 0% 98%;
+  }
+
   * {
     @apply !scroll-smooth;
   }
+
   body {
-    @apply text-white;
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
   }
+
   button {
     @apply active:outline-none;
   }
@@ -35,12 +29,15 @@
 
 @layer utilities {
   h2 {
-    @apply text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold;
+    @apply text-2xl md:text-4xl font-bold;
   }
   h3 {
-    @apply text-4xl sm:text-5xl md:text-6xl text-center font-extrabold;
+    @apply text-base md:text-xl text-center text-slate-500 dark:text-slate-300  ;
   }
-  p{
-     @apply text-sm sm:text-lg;
+  p {
+    @apply text-[14px] md:text-[16px] text-slate-500 dark:text-slate-300;
+  }
+  section {
+    @apply px-[20px] py-[50px] md:py-[80px] md:px-[64px]
   }
 }
