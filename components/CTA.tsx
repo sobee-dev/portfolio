@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
-import Reveal from "./ui/Reveal";
 
-const WHATSAPP_NUMBER = "2348141713547"; // replace with your number
+
+const WHATSAPP_NUMBER = "2349136435116"; 
 const EMAIL = "obinnasamueledeh@gmail.com";
 
 const CTA = () => {

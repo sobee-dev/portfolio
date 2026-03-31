@@ -40,10 +40,10 @@ const About = () => (
           <div className="absolute inset-0 bg-blue-400/20 dark:bg-blue-400/30 rounded-full scale-150 z-10 animate-pulse group-hover:scale-[1.6] transition-transform duration-700 dark:duration-1000" />
 
           {/* Middle Ring */}
-          <div className="absolute inset-0 bg-blue-600/40 dark:bg-blue-500/50 rounded-full scale-125 z-20 group-hover:scale-[1.35] transition-transform duration-600" />
+          <div className="absolute inset-0 bg-blue-500/40 dark:bg-blue-500/50 rounded-full scale-125 z-20 group-hover:scale-[1.35] transition-transform duration-600" />
 
           {/* Main Blue Background */}
-          <div className="absolute inset-0 bg-blue-600/70 dark:bg-blue-400/50 rounded-full scale-110 z-30 shadow-lg group-hover:scale-[1.15] transition-transform duration-300" />
+          <div className="absolute inset-0 bg-blue-500/70 dark:bg-blue-400/50 rounded-full scale-110 z-30 shadow-lg group-hover:scale-[1.15] transition-transform duration-300" />
 
           {/* Image — highest z-index so it sits on top */}
           <div className="relative w-full h-full rounded-full overflow-hidden border border-white  shadow-2xl bg-white z-40 transition-transform duration-300 group-hover:scale-105 group-hover:rotate-2">
