@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const SOCIAL_LINKS = {
   github: "https://github.com/sobee-dev",
-  whatsapp: "https://wa.me/2348141713547",
+  whatsapp: "https://wa.me/2349136435116",
   email: "mailto:obinnasamueledeh@gmail.com",
   twitter: "https://twitter.com/sobee_dev",
   instagram: "https://instagram.com/sobee.dev",
-  linkedin: "https://linkedin.com/in/sobee-dev",
+  linkedin: "https://linkedin.com/in/obinna-samuel",
 };
 
 const Footer = () => {

@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 // import { blogPosts } from "@/data/blog";
 import { projects } from "@/data/projects";
 
-const BASE_URL = "https://portfolio-sobee-devs-projects.vercel.app";
+const BASE_URL = "https://obinnasamuel.site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Blog post routes
@@ -58,7 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${BASE_URL}/submit-review`,
       lastModified: new Date(),
-      changeFrequency: "yearly",
+      changeFrequency: "monthly",
       priority: 0.4,
     },
     // Blog posts

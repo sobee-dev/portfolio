@@ -18,7 +18,7 @@ export const testimonials: Testimonial[] = [
     name: "Ann Ben",
     role: "Founder",
     company: "the tech Powa LTD",
-    companyUrl: "https://thetribeofrichard.com",
+    companyUrl: "https://thetechpowa.com",
     country: "Nigeria",
     countryFlag: "🇳🇬",
     rating: 5,

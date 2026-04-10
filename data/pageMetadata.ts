@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const BASE_URL = "https://portfolio-sobee-devs-projects.vercel.app";
+const BASE_URL = "https://obinnasamuel.site";
 
 // ── /projects ────────────────────────────────────────────────────────────────
 export const projectsMetadata: Metadata = {
@@ -9,7 +9,7 @@ export const projectsMetadata: Metadata = {
     "Explore fullstack web applications, SaaS tools, and blockchain projects built by Obinna Samuel E. — from idea to deployed product.",
   alternates: { canonical: `${BASE_URL}/projects` },
   openGraph: {
-    title: "Projects — Sobee Dev",
+    title: "Projects — Obinna Samuel",
     description:
       "A full showcase of web apps, SaaS tools, and blockchain projects built by Obinna Samuel E.",
     url: `${BASE_URL}/projects`,
@@ -21,12 +21,12 @@ export const projectsMetadata: Metadata = {
 export const experienceMetadata: Metadata = {
   title: "Work Experience",
   description:
-    "Obinna Samuel E.'s full work history — roles held, impact made, and technologies used across startups and businesses.",
+    "Obinna Samuel's full work history — roles held, impact made, and technologies used across startups and businesses.",
   alternates: { canonical: `${BASE_URL}/experience` },
   openGraph: {
     title: "Work Experience — Sobee Dev",
     description:
-      "Full career history of Obinna Samuel E., fullstack software developer based in Lagos, Nigeria.",
+      "Full career history of Obinna Samuel E., a fullstack software developer based in Lagos, Nigeria.",
     url: `${BASE_URL}/experience`,
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
@@ -39,9 +39,9 @@ export const testimonialsMetadata: Metadata = {
     "What clients and collaborators say about working with Obinna Samuel E. — real reviews from real people.",
   alternates: { canonical: `${BASE_URL}/testimonials` },
   openGraph: {
-    title: "Client Reviews — Sobee Dev",
+    title: "Client Reviews — Obinna Samuel",
     description:
-      "Testimonials from clients and collaborators who have worked with Obinna Samuel E.",
+      "Testimonials from clients and collaborators who have worked with Obinna Samuel E.(sobee)",
     url: `${BASE_URL}/testimonials`,
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },

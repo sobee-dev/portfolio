@@ -71,7 +71,7 @@ export default function OGImage() {
             letterSpacing: "-2px",
           }}
         >
-          Obinna Samuel E.
+          Obinna Samuel E. (Sobee)
         </h1>
 
         {/* Title */}
@@ -96,12 +96,12 @@ export default function OGImage() {
             lineHeight: 1.5,
           }}
         >
-          I build websites and apps that help businesses look credible online and convert more clients.
+          I build websites and apps that help businesses manage and automate operations, look credible online and convert more clients.
         </p>
 
         {/* Skills pills */}
         <div style={{ display: "flex", gap: 12, marginTop: 40 }}>
-          {["Next.js", "React", "Node.js", "Django", "TypeScript"].map((skill) => (
+          {["Next.js", "React", "Python", "TypeScript"].map((skill) => (
             <div
               key={skill}
               style={{
@@ -131,7 +131,7 @@ export default function OGImage() {
           }}
         >
           <span style={{ color: "#475569", fontSize: 18 }}>
-            portfolio-sobee-devs-projects.vercel.app
+            obinnasamuel.site
           </span>
         </div>
       </div>

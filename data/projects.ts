@@ -53,7 +53,7 @@ export const projects: Project[] = [
       "Billbuzz is a digital platform that eliminates the need to carry physical paper before being able to issue invoice, access your sales records and customer list. It makes it possible for you to make transactions even while in transit, write a custom invoice with  signature authoriazation from your phone, and keep a digital record of your customers for marketing purposes.",
     img: "/assets/billbuzz-pic.png",
     demoLink: "https://billbuzz.ng",
-    githubLink: "https://github.com/sobee/",
+    githubLink: "https://github.com/sobee-dev/",
     techs: ["Next.js", "Django", "Docker", "REST APIs", "Tailwind CSS"],
     features: [
       "Clean user creation and business onboarding",

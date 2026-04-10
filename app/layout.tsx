@@ -30,7 +30,7 @@ export default function RootLayout({
       <head>
         <link
           rel="icon"
-          href="https://portfolio-sobee-devs-projects.vercel.app/images/logo.png"
+          href="https://obinnasamuel.site/images/logo.png"
           sizes="any"
         />
       </head>
@@ -54,7 +54,7 @@ export const viewport: Viewport = {
 };
 
 // export const metadata: Metadata = {
-//   metadataBase: new URL("https://portfolio-sobee-devs-projects.vercel.app"),
+//   metadataBase: new URL("https://obinnasamuel.site"),
 //   title: {
 //     default: "Obinna Samuel E. ✷ Fullstack Software Developer",
 //     template: "%s - sobee-dev",

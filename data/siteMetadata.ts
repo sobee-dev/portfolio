@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 
-const BASE_URL = "https://portfolio-sobee-devs-projects.vercel.app";
+const BASE_URL = "https://obinnasamuel.site";
 
 export const siteMetadata: Metadata = {
   metadataBase: new URL(BASE_URL),
 
   title: {
-    default: "Obinna Samuel E. — Fullstack Software Developer",
+    default: "Obinna Samuel E. — Professional Fullstack Software Developer",
     template: "%s | Sobee Dev",
   },
 
   description:
-    "Obinna Samuel E. is a Lagos-based fullstack software developer who builds fast, scalable web applications and conversion-focused websites for service businesses. Specialising in Next.js, React, Node.js, and Django.",
+    "Obinna Samuel E. is a Lagos-based fullstack software developer who builds fast, scalable web applications and conversion-focused websites and softwares for startups and businesses. Specialising in Next.js, React, and Django.",
 
   keywords: [
     "Obinna Samuel",
@@ -25,7 +25,7 @@ export const siteMetadata: Metadata = {
     "conversion specialist Nigeria",
     "web application developer",
     "Django developer",
-    "Node.js developer Africa",
+    "Python developer Africa",
     "portfolio website developer",
     "hire fullstack developer Nigeria",
     "freelance developer Lagos",
@@ -37,14 +37,14 @@ export const siteMetadata: Metadata = {
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   category: "technology",
-  applicationName: "Sobee Dev Portfolio",
+  applicationName: "Obinna Samuel Portfolio",
 
   openGraph: {
     type: "website",
     locale: "en_US",
     url: BASE_URL,
-    siteName: "Sobee Dev — Obinna Samuel E.",
-    title: "Obinna Samuel E. — Fullstack Software Developer",
+    siteName: "Obinna Samuel E. (Sobee)",
+    title: "Obinna Samuel E. —  Fullstack Software Developer",
     description:
       "I build websites and apps that help businesses look credible online and convert more clients. Based in Lagos, Nigeria.",
     images: [
@@ -63,7 +63,7 @@ export const siteMetadata: Metadata = {
     creator: "@sobee_dev",
     title: "Obinna Samuel E. — Fullstack Software Developer",
     description:
-      "Fullstack developer based in Lagos, Nigeria. I build web apps and sites that help businesses look credible and convert more clients.",
+      "Fullstack developer based in Lagos, Nigeria. I build web apps and sites that help businesses and startups look credible and convert more clients.",
     images: ["/twitter-image.png"],
   },
 
@@ -83,9 +83,9 @@ export const siteMetadata: Metadata = {
     canonical: BASE_URL,
   },
 
-  verification: {
-    google: "your-google-verification-code", // replace after Search Console setup
-  },
+  // verification: {
+  //   google: "your-google-verification-code", 
+  // },
 
   manifest: "/manifest.json",
 
@@ -97,7 +97,7 @@ export const siteMetadata: Metadata = {
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "apple-mobile-web-app-title": "Sobee Dev",
+    "apple-mobile-web-app-title": "Obinna Samuel",
     "mobile-web-app-capable": "yes",
     "msapplication-TileColor": "#0f172a",
   },
