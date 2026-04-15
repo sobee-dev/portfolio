@@ -31,11 +31,10 @@ const CTA = () => {
       <div className="relative z-10 flex flex-col items-center text-center max-md:gap-4 max-w-2xl mx-auto">
         
           <h2 className=" text-slate-900 dark:text-white leading-tight">
-            Are you convinced I'm the{" "}
-            <span className="bg-gradient-to-r from-blue-800 to-blue-400 bg-clip-text text-transparent">
-              right person
+            Have a project in mind?  <span className="bg-gradient-to-r from-blue-800 to-blue-400 bg-clip-text text-transparent">
+              Let's talk
             </span>{" "}
-            for the job?
+            
           </h2>
        
 
@@ -47,7 +46,7 @@ const CTA = () => {
           onClick={() => setOpen(true)}
           className=" px-8 py-3 rounded-full bg-blue-800 hover:bg-blue-700 text-white font-bold text-base transition-all duration-200 hover:scale-105 shadow-lg shadow-blue-900/20"
         >
-          Text me! 
+          Let's talk! 
         </button>
       </div>
 

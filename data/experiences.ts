@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
       "Designed, developed and managed the digital academy platform and the student registration and onboarding system.",
     achievements: [
       "Led the design, development and deployment of scalable dynamic course listing",
-      "Optimized the Web platform for SEO and foster web and google visibility",
+      "Optimized the platform for SEO,improving visibility on google and organic search rankings",
       "Implemented staff admin panel and student management system",
     ],
 

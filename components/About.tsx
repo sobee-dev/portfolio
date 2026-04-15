@@ -33,47 +33,43 @@ const About = () => {
         
         <div className="max-md:order-2 space-y-3">
           <p>
-            I have always been fascinated with the idea of creation, and this has been evident even as a child with my tendencies to break and reengineer things.
+            I have always been fascinated with the idea of creation, evident even as a child through my tendency to break and re-engineer things.
           </p>
           <p>
-            At 14, I had my first decisive encounter with computer systems the day I learnt to make a keyboard copy and paste task. The idea of telling a machine what to do and it does it, made me feel like a god. Despite having other childhood dreams, I knew I had found myself.
+            At 14, I had my first decisive encounter with computers the day I learned to make a keyboard execute a copy-paste task. The idea of telling a machine what to do and watching it obey made me feel unstoppable. Despite other childhood dreams, I knew I had found my path.
           </p>
 
           <p>
-            I went on to learn desktop publishing, and by 18, I was teaching office management using Microsoft applications, and holding programs for schools on faster ways to manage student records and scores using Ms Access and Excel. That was my first employment.
+            I went on to learn desktop publishing, and by 18, I was teaching office management using Microsoft applications and running programs for schools on faster ways to manage student records using MS Access and Excel. That was my first job.
           </p>
           <p>
-            Before covid, I had to take on physical jobs to be able to fund myself to a proper programming school. I even took on a totally different career, just to make way for me acquiring programming knowledge.
+            Before COVID, I took on physical jobs to fund my way into a proper programming school. I even pursued a completely different career just to create a path toward learning to code.
           </p>
           <p>
-            Eventually I learnt frontend development, which led me to backend, curious to understand the full cycle of a development process. With no idea how to turn it into a career, I just kept building things for fun,  I spent days on stack overflow researching similar problems like my bugs. I Lost most project files because I ignored git
+            Eventually I learned frontend development, which led me to the backend. I wanted to understand the full cycle. With no clear plan to turn it into a career, I just kept building. I spent days on Stack Overflow, then lost all project files because I ignored Git.
           </p>
           <p>
             Built a bills payment startup that didnt meet my expectations and failed after few months of business operations  
           </p>
 
           <p>
-            Started all over again, and currently, I have worked with Edutech startups like TECHPOWA to set up a virtual learning platform and built a number of websites for local businesses
+            I Started all over again.
+          </p>
+          <p>
+            Since then I have worked with EdTech startups like Tech POWA to set up a virtual learning platform, built websites for local businesses, and shipped an offline-first invoice generator designed to eliminate paper invoices for Nigerian business owners.
+          </p>
+          <p>
+            Today I work with startup founders and businesses to build apps and websites that fit their brand, communicate their values, and elevate their credibility. 
+          </p>
+          <p>
+            If you need a website or app that makes people trust your business before you say a word, from the ideation, to the planning, development and deployment, I'm your guy
           </p>
           
-          <p>
-            I Built an offline-first invoice generator with custom branding for business owners, to eliminate the use of paper invoices in Nigerian markets, and currently building the next startup.
-          </p>
-          <p>
-            I work with founders, schools, and business owners, especially in service industry to build app and websites that better suites their brands, communicates their values clearly and elevates their visibility and credibility.
-          </p>
-          <p>
-            With my experiences, I believe that the perfect hire is not only a dev with technical depth, but also the one with a relentless approach to work and solving problems. With, me you just got both.
-          </p>
-          <p>
-            From the idea to the planning, development and deployment, I have got you covered.
-          </p>
-          <p>Lets Build!!</p>
           <button
             onClick={() => setOpen(true)}
             className=" px-6 py-3 rounded-full bg-blue-800 hover:bg-blue-700 text-white font-bold text-base transition-all duration-200 hover:scale-105 shadow-lg shadow-blue-900/20"
           >
-            Text me! 
+            Let's talk! 
           </button>
         
 

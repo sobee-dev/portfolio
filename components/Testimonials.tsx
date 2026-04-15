@@ -120,7 +120,7 @@ const Testimonials = () => {
     <section id="testimonials" className="bg-white dark:bg-slate-900 transition-colors duration-300">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-14">
-          <p className="text-[10px] uppercase tracking-widest text-blue-800 dark:text-blue-400 font-semibold mb-3">Kind words</p>
+          {/* <p className="text-[10px] uppercase tracking-widest text-blue-800 dark:text-blue-400 font-semibold mb-3">Kind words</p> */}
           <h2 className="text-slate-900 dark:text-white">What Clients <span className="text-blue-800 dark:text-blue-400">Say</span></h2>
           <h3 className="mt-4 text-slate-500 dark:text-slate-400 max-w-xl mx-auto">
             Don't take my word for it — here's what people I've worked with have to say.
