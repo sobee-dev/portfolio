@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 
 const WHATSAPP_NUMBER = "2349136435116"; 
-const EMAIL = "obinnasamueledeh@gmail.com";
+const EMAIL = "obinnasamueledeh10000@gmail.com";
 
 
 const About = () => {
@@ -145,7 +145,7 @@ const About = () => {
             {/* Image — highest z-index so it sits on top */}
             <div className="relative w-full h-full rounded-full overflow-hidden border border-white  shadow-2xl bg-white z-40 transition-transform duration-300 group-hover:scale-105 group-hover:rotate-2">
               <img
-                src="/assets/my-photo.jpg"
+                src="/assets/my-photo.PNG"
                 className="w-full h-full object-cover"
                 alt="Profile"
               />

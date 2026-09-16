@@ -23,7 +23,7 @@ export const projects: Project[] = [
     overview:
       "The Tech Powa is an active digital learning platform and community for young people to learn digital tech skills and network with like minds, especially tech related fields. It features an admin page for customization and updating of course, student management. Personalized css styled email for student follow up.",
     img: "/assets/powa-pic.png",
-    demoLink: "https://www.thetechpowa.com",
+    demoLink: "https://powa.obinnasamuel.site",
     githubLink: "https://github.com/sobee-dev/powa",
     techs: ["HTML", "JavaScript", "Python(Flask)", "Tailwind", "Postgre Sql"],
     features: [
